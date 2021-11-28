@@ -27,5 +27,5 @@ if  ChoicOApp==2:
     webbrowser.open("https://github.com/sannidhyasahoo/SensApp/raw/main/Sensors.apk")
 elif ChoicOApp==3:
     print("Opening Browser...")
-    print("https://github.com/sannidhyasahoo/BMI_Py/blob/main/SourceCodeBMI_py")
-    webbrowser.open("https://github.com/sannidhyasahoo/BMI_Py/blob/main/SourceCodeBMI_py")
+    print("https://github.com/sannidhyasahoo/BMI_Py/blob/main/BMI_Calculator.py")
+    webbrowser.open("https://github.com/sannidhyasahoo/BMI_Py/blob/main/BMI_Calculator.py")
