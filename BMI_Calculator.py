@@ -24,13 +24,16 @@ if start=='1':
         print("INVALID INPUT(S) !!! .\nPROGRAM TERMINATED !!!")
 ChoicOApp=int(input("\t^_^ Enter 2 if you would like to download \n\tBMI Calculator App for Android \n\tOr Enter 3 to view the source code \n\tENTER YOUR CHOICE::"))
 import webbrowser
+import time
 if  ChoicOApp==2:
     print("Opening Browser...")
-    print("https://github.com/sannidhyasahoo/SensApp/raw/main/Sensors.apk")
     webbrowser.open("https://github.com/sannidhyasahoo/SensApp/raw/main/Sensors.apk")
+    time.sleep(2)
+    print("https://github.com/sannidhyasahoo/SensApp/raw/main/Sensors.apk")
 elif ChoicOApp==3:
-    print("Opening Browser...")
-    print("https://github.com/sannidhyasahoo/BMI_Py/blob/main/BMI_Calculator.py") 
+    print("Opening Browser...") 
     webbrowser.open("https://github.com/sannidhyasahoo/BMI_Py/blob/main/BMI_Calculator.py")
+    time.sleep(2)
+    print("https://github.com/sannidhyasahoo/BMI_Py/blob/main/BMI_Calculator.py")
 print("if your browser doesn`t open copy the above\nlink and paste it on your browser")
 print("========================================================================")
